@@ -1,10 +1,10 @@
 import React from 'react';
-import ColorChangeInput from './components/ColorChangeInput.js';
+import WordleGrid from './components/WordleGrid';
 
 function App() {
   return (
     <div className="App">
-      <ColorChangeInput />
+      <WordleGrid />
     </div>
   );
 }

@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  grid-template-rows: repeat(6, auto); /* 6 rows */
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordle-cell {
+  width: 60px; 
+  height: 60px; 
+  background-color: #d3d6da;
+  border-radius: 5px; 
+  border: 2px solid #6c6c6c;
+  font-size: 20px; 
+  cursor: pointer; 
+}
+
+.color-options button {
+  margin: 2px;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-options button:hover {
+  opacity: 0.8;
+}
